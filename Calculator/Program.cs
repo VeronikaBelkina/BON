@@ -4,7 +4,7 @@ class Calculator
 {
 	static void Main()
 	{
-
+		Console.WriteLine("Вас приветсвует приложение Калькулятор!");
 		Console.WriteLine("Введите первое число:");
 		double num1 = Convert.ToDouble(Console.ReadLine());
 		Console.WriteLine("Введите операцию (+, -, *, /):");
